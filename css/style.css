@@ -26,6 +26,7 @@ section{
             padding: 20px;
             font-style: monospace;
             color: white;
+            /* margin: 00px 00px 00px 3px; */
         }
         nav{
             display: inline-block;
