@@ -4,56 +4,126 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    }
-
-body {
-    background-color: #3697FD;
     font-family: 'Seymour One', sans-serif;
+    background-color: lightskyblue;  
 }
 
-main { 
+section {
     display: inline-block;
     width: 1400px;
     margin-left: calc((100% - 1400px) / 2);
+}
+
+section > header {
+    display: inline-block;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #fff;
 }
 
 .page-top {
     display: inline-block;
     float: left;
     width: 100%;
-    margin-top: 20px;
+    margin-left: 10px;
 }
 
-p {
+i {
     display: inline-block;
     float: left;
-    font-size: 20px;
-    color: #ffff;
+    margin-right: 10px;
+}
+
+.menu{
+    display: inline-block;
+    float: left;
+    font-size: 30px;
+}
+
+.menu:hover {
+    color: antiquewhite;
+    cursor: pointer;
 }
 
 a {
     display: inline-block;
     float: right;
-    text-align: right;    
-    font-size: 20px;
-    color: #ffff;
+    color: #fff;
+    font-size: 30px;
     margin-left: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color: antiquewhite;
+    cursor: pointer;
 }
 
 .left-side {
     display: inline-block;
-    width: 50%;
     float: left;
-    margin-top: 60px;
-    background-color: seagreen;
+    width: 50%;
+}
 
+h1{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h1:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+h5{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h5:hover {
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    color: black;
+    font-size: 30px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+button > i {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fff;
+    text-align: center;
+    margin: 0px;
 }
 
 .right-side {
     display: inline-block;
-    width: 50%;
     float: left;
-    margin-top: 60px;
-    background-color: yellow;
+    width: 50%;
 }
+
+
+
+
 
